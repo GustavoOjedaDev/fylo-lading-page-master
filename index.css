@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&family=Raleway:ital@0;1&display=swap');
+
+:root{
+    /* Accent */
+
+    /* Inside call-to-action gradient */
+    --color-cyan: hsl(176, 68%, 64%);
+    --color-blue: hsl(198, 60%, 50%);
+    /* ERROR */
+    --color-red: hsl(0, 100%, 63%);
+
+    --background-intro: hsl(217, 28%, 15%);
+    --background-main: hsl(218, 28%, 13%);
+    --background-footer: hsl(216, 53%, 9%);
+    --background-testimonials: hsl(219, 30%, 18%);
+
+    --font-open-sans: 'Open Sans', sans-serif;
+    --font-raleway: 'Raleway', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
