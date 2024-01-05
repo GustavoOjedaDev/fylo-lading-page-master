@@ -27,7 +27,7 @@
 
 body{
     background-color: var(--background-intro);
-    font-size: var(--font-open-sans);
+    /* font-size: var(--font-open-sans); */
     color: var(--neutral);
 }
 /* Estilos para móvil */
@@ -43,67 +43,88 @@ body{
     font-family: var(--font-raleway);
     font-size: 0.8rem;
     color: var(--neutral);
+    }
 
-    img{
-        width: 25%;
-        cursor: pointer;
+    header .logo{
+    width: 25%;
+    cursor: pointer;    
+    }
+    header nav ul{
+        display: flex;
+        gap: 1rem;
+    }
+    header nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    main .showcase{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .showcase .illustration-intro{
+        width: 90%;
+    }
+    main .showcase .illustration-intro img{
+        width: 100%;
+        height: auto;
+    }
+    main .showcase .texts{
+        margin-top: 2rem;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main .showcase h1{
+        font-weight: 700;
+        text-align: center;
+    }
+    main .showcase p{
+        margin-top: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    main .showcase .btn-get-started{
+        width: 180px;
+        height: 40px;
+        border: none;
+        margin-top: 1.5rem;
+        color: var(--neutral);
+        background: var(--color-cyan);
+        border-radius: 0.75rem;
+        font-weight: 700;
+    }
+    .characteristics{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .characteristics .characteristics-conteinter{
+        width: 90%;
+    }
+    .characteristics .characteristics-conteinter h3{
+        margin-top: 1.5rem;
+        font-weight: 700;
+        font-family: var(--font-open-sans);
         
     }
-        nav ul{
-            display: flex;
-            gap: 1rem;
-        }
-        li{
-            display: inline-block;
-            text-decoration: none;
-            cursor: pointer;
-        }
+    .characteristics .characteristics-conteinter p {
+        margin-top: 1rem;
+        font-family: var(--font-raleway);
+        font-weight: 400;
+        margin-bottom: 2.5rem;
     }
-    main{
-        .showcase{
-            width: 100%;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            .illustration-intro{
-                width: 90%;
-                > img{
-                    width: 100%;
-                    height: auto;
-                }
-            }
-            .texts{
-                margin-top: 2rem;
-                width: 90%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-
-                > h1{
-                    font-weight: 700;
-                    text-align: center;
-                }
-                > p{
-                    margin-top: 1.5rem;
-                    font-weight: 400;
-                    text-align: center;
-                }
-                .btn-get-started{
-                    width: 140px;
-                    height: 40px;
-                    border: none;
-                    margin-top: 1.5rem;
-                    color: var(--neutral);
-                    background: var(--color-cyan);
-                    border-radius: 0.75rem;
-
-                }
-            }
-        }
-    }
-
-    
 }
 
 /* Estilos para tablet en modo retrato */
