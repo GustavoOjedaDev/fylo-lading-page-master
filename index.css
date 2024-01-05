@@ -125,6 +125,37 @@ body{
         font-weight: 400;
         margin-bottom: 2.5rem;
     }
+    .productive{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .productive .productive-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .productive .productive-container div{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .productive .productive-container div img{
+        width: 100%;
+        height: auto;
+    }
+    .productive .productive-container .productive-texts h3{
+        text-align: center;
+        font-family: var(--font-raleway);
+        font-weight: 700;
+        margin-top: 2rem;
+    }
+    .productive .productive-container .productive-texts .paragraph{
+        margin-top: 1.5rem;
+        font-family: var(--font-raleway);
+        font-weight: 400;
+    }
 }
 
 /* Estilos para tablet en modo retrato */
