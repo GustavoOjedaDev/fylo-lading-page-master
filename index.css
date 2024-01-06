@@ -156,6 +156,17 @@ body{
         font-family: var(--font-raleway);
         font-weight: 400;
     }
+    .productive .productive-container .productive-text2{
+        margin-top: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+    .productive-text2 span{
+        font-family: var(--font-raleway);
+        color: var(--color-cyan);
+        border-bottom: 2px solid var(--color-cyan);
+    }
 }
 
 /* Estilos para tablet en modo retrato */
