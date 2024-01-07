@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&family=Raleway:ital@0;1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&family=Raleway:ital@0;1&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
     /* Accent */
@@ -166,6 +170,46 @@ body{
         font-family: var(--font-raleway);
         color: var(--color-cyan);
         border-bottom: 2px solid var(--color-cyan);
+    }
+    .cards{
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+    }
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--background-testimonials);
+        padding: .5rem;
+        border-radius: .3rem;
+    }
+    .card .card-text p{
+        font-family: var(--font-open-sans);
+        font-size: small;
+        font-weight: 400;
+        color: rgba(234, 234, 234, 0.792);
+    }
+    .card .card-info-profile{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        margin-top: 0.7rem;
+    }
+    .card .card-info-profile img{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    .card .card-info-profile .person .person-name{
+        font-family: var(--font-raleway);
     }
 }
 
