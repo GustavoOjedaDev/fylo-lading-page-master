@@ -174,12 +174,14 @@ body{
     .cards{
         width: 100%;
         height: auto;
-        margin-top: 2rem;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
     }
     .cards-container{
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 1.5rem;
     }
     .card{
         width: 90%;
@@ -209,7 +211,14 @@ body{
         border-radius: 50%;
     }
     .card .card-info-profile .person .person-name{
-        font-family: var(--font-raleway);
+        font-family: var(--font-open-sans);
+        font-weight: 700;
+    }
+    .card .card-info-profile .person .description-person{
+        font-family: var(--font-open-sans);
+        color: rgba(234, 234, 234, 0.792);
+        font-weight: 400;
+        font-size: x-small;
     }
 }
 
