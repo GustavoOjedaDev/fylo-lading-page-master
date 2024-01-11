@@ -222,6 +222,86 @@ body{
     }
 }
 
+footer{
+    width: 100%;
+    height: 30rem;
+    background-color: var(--background-footer);
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.contact-logo-text {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.container .contact-logo-text .contact-text{
+    display: flex;
+    flex-direction: row;
+    margin-top: .7rem;
+    gap: 16px;
+    justify-content: center;
+    font-family: var(--font-open-sans);
+    font-weight: 400;
+}
+.contact-logo-text  img{
+    width: 35%;
+    
+}
+.contact-numbers {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: .7rem;
+    gap: 1rem;
+    font-family: var(--font-open-sans);
+}
+
+.contact-numbers .contact-phone{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.contact-numbers .contact-email{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.contact-numbers .contact-phone a,
+.contact-numbers .contact-email a{
+    
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.about-us, .contact-us {
+    width: 90%;
+    height: auto;
+    margin-top: .7rem;
+}
+.about-us ul,
+.contact-us ul{
+    list-style: none;
+}
+
+.about-us ul li a,
+.contact-us ul li a{
+    font-family: var(--font-open-sans);
+    color: white;
+}
+
+
 /* Estilos para tablet en modo retrato */
 @media only screen and (min-width: 576px) and (max-width: 991.98px) {
     /* Tus estilos para tablet en modo retrato van aquí */
