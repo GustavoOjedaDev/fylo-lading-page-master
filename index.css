@@ -301,6 +301,17 @@ a{
     color: white;
 }
 
+.contact-social-networks{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.contact-social-networks a {
+    cursor: pointer;
+}
 
 /* Estilos para tablet en modo retrato */
 @media only screen and (min-width: 576px) and (max-width: 991.98px) {
