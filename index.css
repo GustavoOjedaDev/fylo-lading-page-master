@@ -34,6 +34,166 @@ body{
     /* font-size: var(--font-open-sans); */
     color: var(--neutral);
 }
+
+header{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: var(--font-raleway);
+    font-size: 0.8rem;
+    color: var(--neutral);
+    }
+
+    header .logo{
+    width: 10%;
+    cursor: pointer;    
+    }
+    header nav ul{
+        display: flex;
+        gap: 1rem;
+    }
+    header nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+    main .showcase{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .showcase .illustration-intro{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    main .showcase .illustration-intro img{
+        width: 35%;
+        height: auto;
+    }
+    main .showcase .texts{
+        margin-top: 2rem;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    main .showcase h1{
+        font-weight: 700;
+        text-align: center;
+        font-size: large;
+    }
+    main .showcase p{
+        margin-top: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+        font-size: small;
+    }
+    main .showcase .btn-get-started{
+        width: 150px;
+        height: 30px;
+        border: none;
+        margin-top: 1.5rem;
+        color: var(--neutral);
+        background: var(--color-cyan);
+        border-radius: 0.75rem;
+        font-weight: 700;
+    }
+    .characteristics{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .characteristics-box1{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        gap: 2rem;
+        align-items: center;
+    }
+    /* .characteristics .characteristics-box1 .characteristics-conteinter{
+        width: 50%;
+        height: auto;
+    } */
+    .characteristics .characteristics-box1 .characteristics-conteinter h3{
+        margin-top: 1.5rem;
+        font-weight: 700;
+        font-family: var(--font-open-sans);
+        font-size: x-small;
+    }
+    .characteristics .characteristics-box1 .characteristics-conteinter p {
+        margin-top: 1rem;
+        font-family: var(--font-raleway);
+        font-weight: 400;
+        font-size: xx-small;
+        margin-bottom: 2.5rem;
+
+    }
+
+    .productive{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .productive .productive-container{
+        display: flex;
+        width: 90%;
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .productive .productive-container div{
+        width: 60%;
+        height: auto;
+        
+    }
+    .productive .productive-container div img{
+        width: 100%;
+        height: auto;
+    }
+    .productive .productive-container .productive-texts h3{
+        text-align: center;
+        font-family: var(--font-raleway);
+        font-weight: 700;
+        margin-top: 2rem;
+    }
+    .productive .productive-container .productive-texts .paragraph{
+        margin-top: 1.5rem;
+        font-family: var(--font-raleway);
+        font-weight: 400;
+    }
+    .productive .productive-container .productive-text2{
+        width: 40%;
+        height: auto;
+        margin-top: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+    }
+    .productive-text2 span{
+        font-family: var(--font-raleway);
+        color: var(--color-cyan);
+        border-bottom: 2px solid var(--color-cyan);
+    }
 /* Estilos para móvil */
 @media only screen and (max-width: 575.98px) {
     /* Tus estilos para móvil van aquí */
